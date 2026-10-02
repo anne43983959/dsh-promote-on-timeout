@@ -1,0 +1,12 @@
+node_modules/
+*.log
+
+# 本机备份 / 临时留档：不进仓库
+*.bak-*
+*.bak
+
+# 本机专属的源码定位说明（含绝对路径、home 与实例信息）
+SOURCE.local.md
+
+# 离线自检的临时目录（运行时产物）
+.smoke/.tmp/
